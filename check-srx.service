@@ -1,0 +1,8 @@
+[Unit]
+Description=Continuous DVD scan in /dev/srX
+
+[Service]
+ExecStart=/bin/bash /path/to/script
+
+[Install]
+WantedBy=multi-user.target
